@@ -1,0 +1,24 @@
+.life {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  width: 30%;
+}
+
+.life__bar {
+  height: 8px;
+  background: lightgreen;
+  transform-origin: left;
+  transition: linear 0.7s;
+}
+
+.denger {
+  background-color: red;
+}
+
+.dead {
+  opacity: 0.2;
+  transition: 0.7s;
+}
